@@ -12,52 +12,60 @@
 <body>
 
   <form>
-    <div class="text-center">
-      <p style="display: inline-block;margin-left:30px;">Date</p>
+    <div class="container">
+      <p style="display: inline-block;margin-left:200px;">Date</p>
       <p class="text-right" style="display: inline-block; margin-left: 550px; margin-top: 50px;">Ref No: RPAEL/HR/MR/23/
       </p>
     </div>
-    <div style="border:1px solid black; margin-left:230px; width:800px;"></div>
-    <div style="margin-left: 500px;">
+    <div class="container" style="border:1px solid black; margin-left:200px; width:850px;"></div>
+    <div class="container" style="margin-left: 450px;">
       <h4>MEMBER HIRING REQUISITION FORM</h4>
     </div>
 
-    <div style="margin-left: 275px; margin-top: 15px;">
-      <div style="display:inline-block">
-        <label style="margin-left: 50px; margin-right: 10px;">1. Unit/Department:</label>
+    <div class="container" style="margin-left: 200px; margin-top: 15px;" >
+      <div  style="display:inline-block">
+        <label style="margin-left: ;">1. Unit/Department:</label>
         <br>
         <select class="selectpicker" data-live-search="true" id="exampleSelect"
-          style="margin-left: 50px; width: 150px; height: 30px; ">
+          style="margin-left: ; width: 160px; height: 30px; ">
           <option>Option 1</option>
           <option>Option 2</option>
           <option>Option 3</option>
         </select>
       </div>
-      <div style="display:inline-block">
-        <label style="margin-left: 15px; margin-right: 10px;">-- Location:</label>
+      <div  style="display:inline-block">
+        <label style="">-- Location:</label>
+        <br>
+        <select class="selectpicker" data-live-search="true" id="exampleSelect" style="width: 160px; height: 30px; ">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+      </div>
+      <div  style="display: inline-block;">
+        <label style="margin-left: ;">2. Position/Designation:</label>
         <br>
         <select class="selectpicker" data-live-search="true" id="exampleSelect"
-          style="margin-left: 10px;width: 150px; height: 30px; ">
+          style="width: 160px; height: 30px;margin-left: ;">
           <option>Option 1</option>
           <option>Option 2</option>
           <option>Option 3</option>
         </select>
       </div>
       <div style="display: inline-block;">
-        <label style="margin-left: 50px; margin-right: 10px;">2. Position/Designation:</label>
+        <label style="">-- Grade:</label>
         <br>
-        <select class="selectpicker" data-live-search="true" id="exampleSelect"
-          style="width: 130px; height: 20px;">
+        <select class="selectpicker" data-live-search="true" id="exampleSelect" style="width: 160px; height: 30px;">
           <option>Option 1</option>
           <option>Option 2</option>
           <option>Option 3</option>
         </select>
       </div>
       <div style="display: inline-block;">
-        <label style="margin-left: 15px; margin-right: 30px;">-- Grade:</label>
+        <label style="margin-left: ; margin-right: ;">3. Reporting to:</label>
         <br>
         <select class="selectpicker" data-live-search="true" id="exampleSelect"
-          style="margin-left: 47px;width: 130px; height: 20px;">
+          style="margin-left: ;width: 160px; height: 30px;">
           <option>Option 1</option>
           <option>Option 2</option>
           <option>Option 3</option>
@@ -65,121 +73,110 @@
       </div>
     </div>
 
-    
 
-    <div style="margin-left: 275px;margin-top:15px">
-      <div style="display: inline-block;">
-        <label style="margin-left: 50px;display: inline-block; margin-right: 10px;">3.Reporting To:</label>
-        <select class="selectpicker" data-live-search="true" id="exampleSelect"
-          style="margin-left: 58px;width: 130px; height: 20px; display: inline-block;">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-        </select>
-      </div>
-      <div style="display: inline-block;">
-        <label style="display: inline-block;margin-left: 15px; margin-right: 30px;">4.Salary Range:</label>
-        <select class="selectpicker" data-live-search="true" id="exampleSelect"
-          style="width: 130px; height: 20px; display: inline-block;">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-        </select>
-      </div>
-    </div>
 
-    <div style="margin-left: 310px;margin-top:15px">
-      <div class="container">
-        <div class="form-group; display: inline-block;">
-          <label for="exampleInput">5.Number of Person(s) Required:</label>
+    <div class="container" style="margin-left: 200px;margin-top:15px;">
+
+      <div style="display: inline-block;">
+        <label style="margin-left: ; margin-right: ;">4.Salary Range:</label>
+        <br>
+        <input type="text" class="form-control" id="exampleInput" placeholder="Enter your value"
+          style="width: 160px; height: 30px;margin-left: ;">
+      </div>
+
+      <div  style="display: inline-block;">
+        <div>
+          <label for="exampleInput" style="margin-left: ;">5.Number of Person(s) Required:</label>
+          <br>
           <input type="number" class="form-control" id="exampleInput" placeholder="Enter your value"
-            style="width: 150px; height: 20px; display: inline-block;">
+            style="width: 160px; height: 30px;margin-left: ;">
         </div>
       </div>
+
+      <div  style="display: inline-block;"><label style="display: inline-block;">6.Choose Gender
+          :</label>
+          <br>
+        <div  class="radio" style="display: inline-block;">
+          <label>
+            <input type="radio" name="options" class="single-check"> Male
+          </label>
+        </div>
+        <div class="radio" style="display: inline-block;">
+          <label>
+            <input type="radio" name="options" class="single-check"> Female
+          </label>
+        </div>
+        <div  class="radio" style="display: inline-block;">
+          <label>
+            <input type="radio" name="options" class="single-check"> Any
+          </label>
+        </div>
+      </div>
+
     </div>
 
-    <div class="container" style="margin-left: 310px;"><label style="display: inline-block;">6.Choose Gender :</label>
-      <div class="radio" style="display: inline-block;">
-        <label>
-          <input type="radio" name="options" class="single-check"> Male
-        </label>
-      </div>
-      <div class="radio" style="display: inline-block;">
-        <label>
-          <input type="radio" name="options" class="single-check"> Female
-        </label>
-      </div>
-      <div class="radio" style="display: inline-block;">
-        <label>
-          <input type="radio" name="options" class="single-check"> Any
-        </label>
-      </div>
-    </div>
-
-    <div class="container" style="margin-left: 310px;"><label style="display: inline-block;">7.Justification :</label>
-      <div class="radio" style="display: inline-block;">
+    <div class="container" style="margin-left: 200px;"><label style="display: inline-block;">7.Justification :</label>
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> Replacement
         </label>
       </div>
-      <div class="radio" style="display: inline-block;">
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> New Position
         </label>
       </div>
-      <div class="radio" style="display: inline-block;">
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> Additional Work Load
         </label>
       </div>
-      <div class="radio" style="display: inline-block;">
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> Special Assignment
         </label>
       </div>
     </div>
 
-    <div class="container" style="margin-left: 310px;"><label style="display: inline-block;">8.When Required :</label>
-      <div class="radio" style="display: inline-block;">
+    <div class="container" style="margin-left: 200px;"><label style="display: inline-block;">8.When Required :</label>
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> Immediate (Less than a month)
         </label>
       </div>
-      <div class="radio" style="display: inline-block;">
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> 1 month
         </label>
       </div>
-      <div class="radio" style="display: inline-block;">
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> 2 months
         </label>
       </div>
-      <div class="radio" style="display: inline-block;">
+      <div  class="radio" style="display: inline-block;">
         <label>
           <input type="radio" name="options" class="single-check"> 3 months
         </label>
       </div>
-      <div>
-        <div class="radio" style="display: inline-block; margin-left: 340px;">
-          <label>
-            <input type="radio" name="options" class="single-check"> 4 months
-          </label>
-        </div>
-        <div class="radio" style="display: inline-block;">
-          <label>
-            <input type="radio" name="options" class="single-check"> 5 months
-          </label>
-        </div>
-        <div class="radio" style="display: inline-block;">
-          <label>
-            <input type="radio" name="options" class="single-check"> 6 months
-          </label>
-        </div>
+      <div  class="radio" style="display: inline-block;">
+        <label>
+          <input type="radio" name="options" class="single-check"> 4 months
+        </label>
+      </div>
+      <div  class="radio" style="display: inline-block;">
+        <label>
+          <input type="radio" name="options" class="single-check"> 5 months
+        </label>
+      </div>
+      <div  class="radio" style="display: inline-block;">
+        <label>
+          <input type="radio" name="options" class="single-check"> 6 months
+        </label>
       </div>
     </div>
 
-    <div class="container" style="margin-left:310px;">
+    <div class="container" style="margin-left:200px;">
       <label for="">9. Job Description (Duties & Tasks to be performed):</label>
       <br>
       <label for="">Duties & Tasks</label>
@@ -187,19 +184,19 @@
         style="width: 600px; height: 100px;"></textarea>
     </div>
 
-    <div style="margin-left:320px;">
+    <div class="container" style="margin-left:200px;">
       <label for="">10. Job Specification:</label>
     </div>
 
-    <div style="margin-left:320px;">
+    <div class="container" style="margin-left:200px;">
       <label for="">10.1 Academic Background:</label>
       <div>
-        <div class="checkbox" style=" display: inline-block;">
+        <div  class="checkbox" style=" display: inline-block;">
           <label>
             <input type="checkbox" class="single-check"> SSC
           </label>
           <select class="selectpicker" data-live-search="true" id="exampleSelect"
-            style="margin-left: 68px;width: 130px; height: 20px; display: inline-block;">
+            style="margin-left: 110px;width: 130px; height: 20px; display: inline-block;">
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
@@ -210,32 +207,18 @@
             <input type="checkbox" class="single-check"> HSC
           </label>
           <select class="selectpicker" data-live-search="true" id="exampleSelect"
-            style="margin-left: 158px;width: 130px; height: 20px; display: inline-block;">
+            style="margin-left: 18px;width: 130px; height: 20px; display: inline-block;">
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
           </select>
         </div>
-      </div>
-
-      <div>
-        <div class="checkbox" style=" display: inline-block;">
+        <div  class="checkbox" style=" display: inline-block;margin-left: 20px;">
           <label>
             <input type="checkbox" class="single-check"> Diploma
           </label>
           <select class="selectpicker" data-live-search="true" id="exampleSelect"
-            style="margin-left: 47px;width: 130px; height: 20px; display: inline-block;">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-          </select>
-        </div>
-        <div class="checkbox" style=" display: inline-block; margin-left: 20px">
-          <label>
-            <input type="checkbox" class="single-check">Bachelor (Pass /Hons)
-          </label>
-          <select class="selectpicker" data-live-search="true" id="exampleSelect"
-            style="margin-left: 47px;width: 130px; height: 20px; display: inline-block;">
+            style="margin-left: 20px;width: 130px; height: 20px; display: inline-block;">
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
@@ -246,21 +229,32 @@
       <div>
         <div class="checkbox" style=" display: inline-block;">
           <label>
-            <input type="checkbox" class="single-check"> Masters
+            <input type="checkbox" class="single-check">Bachelor (Pass /Hons)
           </label>
           <select class="selectpicker" data-live-search="true" id="exampleSelect"
-            style="margin-left: 47px;width: 130px; height: 20px; display: inline-block;">
+            style="margin-left: ;width: 130px; height: 20px; display: inline-block;">
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
           </select>
         </div>
-        <div class="checkbox" style=" display: inline-block; margin-left: 23px">
+        <div class="checkbox" style=" display: inline-block;margin-left: 20px;">
+          <label>
+            <input type="checkbox" class="single-check"> Masters
+          </label>
+          <select class="selectpicker" data-live-search="true" id="exampleSelect"
+            style="margin-left: ;width: 130px; height: 20px; display: inline-block;">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </select>
+        </div>
+        <div class="checkbox" style=" display: inline-block; margin-left: 20px ;">
           <label>
             <input type="checkbox" class="single-check"> Other
           </label>
           <select class="selectpicker" data-live-search="true" id="exampleSelect"
-            style="margin-left: 150px;width: 130px; height: 20px; display: inline-block;">
+            style="margin-left: 35px;width: 130px; height: 20px; display: inline-block;">
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
@@ -269,7 +263,8 @@
       </div>
     </div>
 
-    <div style="margin-left:320px;">
+
+    <div class="container" style="margin-left:200px;">
       <label for="">10.2 Experience Level :</label>
       <div>
         <div class="radio" style="display: inline-block;">
@@ -312,8 +307,7 @@
             <input type="radio" name="options" class="single-check"> 7 years
           </label>
         </div>
-        <div>
-          <div class="radio" style="display: inline-block;">
+        <div class="radio" style="display: inline-block;">
             <label>
               <input type="radio" name="options" class="single-check"> 8 years
             </label>
@@ -328,14 +322,13 @@
               <input type="radio" name="options" class="single-check"> 10 years
             </label>
           </div>
-        </div>
       </div>
     </div>
 
-    <div class="container" style="margin-left:295px; margin-top:15px;">
+    <div class="container" style="margin-left:200px; margin-top:15px;">
       <label>10.3 Special Skills/ Training Required (Please specify)</label>
       <br>
-      <textarea class="container" style=" height:200px; width:650px;">
+      <textarea    style=" height:200px; width:775px;">
 •	Excellent verbal and written communication skills, including ability to effectively communicate with internal and external customers.
 •	Excellent computer proficiency (MS Office - Word, Excel, PowerPoint and Outlook).
 •	Must be able to work under pressure and meet deadlines, while maintaining a positive attitude and providing exemplary of motivation.
@@ -353,8 +346,8 @@ Physical Requirements:
 
     </div>
 
-    <div style="margin-top:10px; margin-left:295px;">
-      <div>
+    <div class="container" style="margin-top:10px; margin-left:200px;">
+      <div >
         <label>10.4 Physical Attributes, if any-</label>
         <div>
           <label for="">a.Age range:</label>
@@ -397,7 +390,7 @@ Physical Requirements:
 
         </div>
       </div>
-      <div>
+      <div >
         <label for="">b. Physique:</label>
         <div class="radio" style="display: inline-block;">
           <label>
@@ -435,13 +428,13 @@ Physical Requirements:
       </div>
     </div>
 
-    <div style="border:1px solid black; margin-left:290px; width:660px;"></div>
+    <div class="container" style="border:1px solid black; margin-left:200px; width:660px;"></div>
 
-    <div style="margin-top:10px; margin-left:295px;">
+    <div class="container" style="margin-top:10px; margin-left:200px;">
       <label>11. Plan for Recruitment- HR (Part) </label>
     </div>
 
-    <div style="margin-top:10px; margin-left:295px;">
+    <div class="container" style="margin-top:10px; margin-left:200px;">
       <label style="display: inline-block;">11.1. Sourcing:</label>
       <div class="checkbox" style="display: inline-block">
         <label>
@@ -460,7 +453,7 @@ Physical Requirements:
       </div>
     </div>
 
-    <div style="margin-top:10px; margin-left:295px;width:700px;">
+    <div class="container" style="margin-top:10px; margin-left:200px;width:775px;">
       <label>11.2: Schedules:</label>
       <div>
         <table class="table table-bordered">
@@ -514,17 +507,19 @@ Physical Requirements:
       </div>
     </div>
 
-    <div style="border:1px solid black; margin-left:290px;margin-top:80px; width:80px;display:inline-block"></div>
+    <div style="border:1px solid black; margin-left:200px;margin-top:80px; width:80px;display:inline-block"></div>
     <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:100px;display:inline-block"></div>
     <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:120px;display:inline-block"></div>
     <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:140px;display:inline-block"></div>
     <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:160px;display:inline-block"></div>
     
-    <label  style=" margin-left:290px;margin: top -5px;px; width:80px;display:inline-block">Raised by:</label>
-    <label style=" margin-left:60px; width:130px;display:inline-block">Recommended by:  HOD</label>
-    <label style=" margin-left:30px; width:130px;display:inline-block">Recommended by:  HR</label>
-    <label style=" margin-left:60px; width:130px;display:inline-block">Recommended by:  CEO</label>
+    <label style=" margin-left:200px; width:80px;display:inline-block">Raised by:</label>
+    <label style=" margin-left:60px; width:130px;display:inline-block">Recommended by: HOD</label>
+    <label style=" margin-left:30px; width:130px;display:inline-block">Recommended by: HR</label>
+    <label style=" margin-left:60px; width:130px;display:inline-block">Recommended by: CEO</label>
     <label style=" margin-left:60px; width:130px;display:inline-block">Approved by: Director/DMD/MD/VC</label>
+    
+    
 
   </form>
 

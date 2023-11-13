@@ -1,67 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Responsive Form Example</title>
 </head>
-<body>  
+<body>
 
-    <form>
-    <div class="text-center">
-    <p style="display: inline-block;margin-left:30px;">Date</p> <p class="text-right" style="display: inline-block; margin-left: 550px; margin-top: 50px;">Ref No: RPAEL/HR/MR/23/</p>
+  <form>
+    <div class="container">
+      <label for="">10.1 Academic Background:</label>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="single-check"> SSC
+            </label>
+            <select class="selectpicker" data-live-search="true" id="exampleSelect"
+              style="width: 100%; height: 30px; margin-top: 5px;">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="single-check"> HSC
+            </label>
+            <select class="selectpicker" data-live-search="true" id="exampleSelect"
+              style="width: 100%; height: 30px; margin-top: 5px;">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="single-check"> Diploma
+            </label>
+            <select class="selectpicker" data-live-search="true" id="exampleSelect"
+              style="width: 100%; height: 30px; margin-top: 5px;">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="single-check"> Bachelor (Pass /Hons)
+            </label>
+            <select class="selectpicker" data-live-search="true" id="exampleSelect"
+              style="width: 100%; height: 30px; margin-top: 5px;">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="single-check"> Masters
+            </label>
+            <select class="selectpicker" data-live-search="true" id="exampleSelect"
+              style="width: 100%; height: 30px; margin-top: 5px;">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="single-check"> Other
+            </label>
+            <select class="selectpicker" data-live-search="true" id="exampleSelect"
+              style="width: 100%; height: 30px; margin-top: 5px;">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style= "margin-left: 500px;">
-    <h4>MEMBER HIRING REQUISITION FORM</h4>
-    </div>
-    
+  </form>
 
- <div style="disply:inline-block;">
- <div style="display: inline-block;">
-    <label style="display: inline-block; margin-right: 40px;">1. Unit/Department</label>
-    <select class="selectpicker" data-live-search="true" id="exampleSelect" style="width: 40px; height: 20px;display: inline-block; ">
-      <option>Option 1</option>
-      <option>Option 2</option>
-      <option>Option 3</option>
-    </select>
-  </div>
-</div>
-
-
-
-<div style="disply:inline-block;">
-<div style="display: inline-block;">
-    <label style="display: inline-block; margin-right: 10px;">-- Location</label>
-    <select class="selectpicker" data-live-search="true" id="exampleSelect" style="width: 100px; height: 30px;display: inline-block; ">
-      <option>Option 1</option>
-      <option>Option 2</option>
-      <option>Option 3</option>
-    </select>
-  </div>
-</div>
-
- 
-    
-
-
-
-
-
-   </form>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js" integrity="sha512-jymc62HrooU2gWUYX3egHMUklNxdW0gwAG4sdJP+zy1Z3NilGVJFg8VgU3jNknZ2g9BxK76XRyP5K8j64hr+sA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js" integrity="sha512-yDlE7vpGDP7o2eftkCiPZ+yuUyEcaBwoJoIhdXv71KZWugFqEphIS3PU60lEkFaz8RxaVsMpSvQxMBaKVwA5xg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script>
-  // Initialize the Bootstrap Select Picker
-  $('.selectpicker').selectpicker();
-</script>
-
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
+
+
