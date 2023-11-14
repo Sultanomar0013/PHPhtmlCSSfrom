@@ -61,7 +61,13 @@
           <option>Option 3</option>
         </select>
       </div>
-      <div style="display: inline-block;">
+      
+    </div>
+
+
+
+    <div class="container" style="margin-left: 200px;margin-top:15px;">
+    <div style="display: inline-block;">
         <label style="margin-left: ; margin-right: ;">3. Reporting to:</label>
         <br>
         <select class="selectpicker" data-live-search="true" id="exampleSelect"
@@ -71,11 +77,6 @@
           <option>Option 3</option>
         </select>
       </div>
-    </div>
-
-
-
-    <div class="container" style="margin-left: 200px;margin-top:15px;">
 
       <div style="display: inline-block;">
         <label style="margin-left: ; margin-right: ;">4.Salary Range:</label>
@@ -92,8 +93,9 @@
             style="width: 160px; height: 30px;margin-left: ;">
         </div>
       </div>
-
-      <div  style="display: inline-block;"><label style="display: inline-block;">6.Choose Gender
+    </div>
+    
+    <div  style="display: inline-block;"><label style="display: inline-block;">6.Choose Gender
           :</label>
           <br>
         <div  class="radio" style="display: inline-block;">
@@ -112,8 +114,6 @@
           </label>
         </div>
       </div>
-
-    </div>
 
     <div class="container" style="margin-left: 200px;"><label style="display: inline-block;">7.Justification :</label>
       <div  class="radio" style="display: inline-block;">
