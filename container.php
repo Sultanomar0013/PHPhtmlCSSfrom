@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
 
 </head>
 
 <body>
     
-        <form style="margin-left:200px;">
-            <div class="">
-                <p style="display: inline-block;margin-left:;">Date</p>
-                <p class="text-right" style="display: inline-block; margin-left: 550px; margin-top: 50px;">Ref No:
+        <form style="margin-left:200px; ">
+            <div class="" id="title"style="display: flex; padding-top:60px;justify-content:space-between; padding-right:200px">
+                <p class="date" style="display:;margin-left:;">Date</p>
+                <p  class="text-right ref" style="display:; padding-left:  ; margin-top: ;">Ref No:
                     RPAEL/HR/MR/23/
                 </p>
             </div>
-            <div class="" style="border:1px solid black; margin-left:; width:850px;"></div>
+            <div class="line" style="border:1px solid black; width:;"></div>
             <div class="" style="margin-left: ;">
                 <h4>MEMBER HIRING REQUISITION FORM</h4>
             </div>
@@ -512,22 +513,6 @@ Physical Requirements:
                 </div>
             </div>
 
-            <div style="border:1px solid black; margin-left:;margin-top:80px; width:80px;display:inline-block">
-            </div>
-            <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:100px;display:inline-block">
-            </div>
-            <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:120px;display:inline-block">
-            </div>
-            <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:140px;display:inline-block">
-            </div>
-            <div style="border:1px solid black; margin-left:60px;margin-top:80px; width:160px;display:inline-block">
-            </div>
-
-            <label style=" margin-left:; width:80px;display:inline-block">Raised by:</label>
-            <label style=" margin-left:60px; width:130px;display:inline-block">Recommended by: HOD</label>
-            <label style=" margin-left:30px; width:130px;display:inline-block">Recommended by: HR</label>
-            <label style=" margin-left:60px; width:130px;display:inline-block">Recommended by: CEO</label>
-            <label style=" margin-left:60px; width:130px;display:inline-block">Approved by: Director/DMD/MD/VC</label>
 
 
 
